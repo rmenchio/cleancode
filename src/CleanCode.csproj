@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Cap2NomesSignificativos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cap2NomesSignificativos\" />
+  </ItemGroup>
 </Project>
