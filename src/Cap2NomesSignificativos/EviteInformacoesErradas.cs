@@ -7,7 +7,6 @@
  * 
  * Caso você utilize o nome lista, pode confundir futuros programadores ou até
  * você mesmo. Veja os exemplos.
- * 
  */
 
 namespace CleanCode.Cap2NomesSignificativos
