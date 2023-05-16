@@ -3,7 +3,7 @@
  * com o propósito da variável, classe, função...
  * 
  * Se um nome precisa de um comentário para descreve-lo,
- * não é um bom nome
+ * não é um bom nome.
  */
 
 namespace CleanCode.Cap2NomesSignificativos
@@ -12,8 +12,6 @@ namespace CleanCode.Cap2NomesSignificativos
 	{
         public void Exemplo1_Variaveis()
         {
-            /* Exemplo 1 - Variáveis */
-
             int d; // dias decorridos a partir do início.
 
             int diasDesdeInicio;
@@ -24,8 +22,6 @@ namespace CleanCode.Cap2NomesSignificativos
 
         public void Exemplo2_Funcoes()
         {
-            /* Exemplo 2 - Funções */
-
             int numeroInteiro = 24;
 
             var resultado = Verificar(numeroInteiro);
