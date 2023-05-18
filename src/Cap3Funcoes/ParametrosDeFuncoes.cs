@@ -2,7 +2,6 @@
  * A ideia principal é manter as funções com o menor numero
  * possível de parametros. Sendo o ideal mante-las com no máximo 2 parâmetros.
  * Utilizar 3 parametros deve ser em um caso especial.
- * 
  */
 namespace CleanCode.Cap3Funcoes
 {
@@ -60,17 +59,17 @@ namespace CleanCode.Cap3Funcoes
 			// Prefira isso
 			bool execucaoRapida = true;
 
-            TestesParametrosDeFuncoes.Exemplo3(execucaoRapida);
+            TesteParametrosDeFuncoes.Exemplo3(execucaoRapida);
 
             // Ao invés disso
 
-            TestesParametrosDeFuncoes.Exemplo3(true);
+            TesteParametrosDeFuncoes.Exemplo3(true);
         }
 
 		
 	}
 
-	public static class TestesParametrosDeFuncoes
+	public static class TesteParametrosDeFuncoes
     {
         public static void Exemplo3(bool fazAlgo)
         {
