@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Cap2NomesSignificativos\" />
+    <None Remove="Cap3Funcoes\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Cap2NomesSignificativos\" />
+    <Folder Include="Cap3Funcoes\" />
   </ItemGroup>
 </Project>
