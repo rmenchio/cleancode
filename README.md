@@ -34,3 +34,17 @@ A ideia é conseguir transmitir os conhecimentos do livro, principalmente em por
 - Comportamento incorreto nos limites de uma função
 - Anular trechos de código de “segurança”, que impedem alguma ação
 - Código duplicado
+- Código morto
+- Declarações de variáveis distantes do seu primeiro uso
+- Inconsistências na abordagem utilizada para resolver o mesmo problema
+- Construtores sem implementação
+- Acoplamento artificial
+- Flags booleanas no final de uma função. É melhor dividir a função em duas
+- Propósitos de funções obscuras
+- Responsabilidades às funções de forma inadequada
+- Variáveis não descritivas
+- Nome das funções não clara
+- Números mágicos sem um nome adequado.
+    - O melhor é utilizar um nome para um número mágico, por exemplo, SECONDS_PER_DAY = 86400
+- Evite condições negativas para as funções booleanas
+- Evite dar mais de uma responsabilidade para uma função
